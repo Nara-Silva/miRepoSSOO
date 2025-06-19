@@ -1,0 +1,35 @@
+# Archivo de ejemplo para probar el sistema operativo simulado
+# Este archivo contiene instrucciones que serán ejecutadas por el proceso
+
+# Instrucción NOOP (no hace nada, solo espera)
+NOOP
+
+# Escribir "HOLA" en la dirección de memoria 10
+WRITE 10 HOLA
+
+# Leer 4 bytes desde la dirección 10
+READ 10 4
+
+# Escribir "MUNDO" en la dirección 20
+WRITE 20 MUNDO
+
+# Leer 5 bytes desde la dirección 20
+READ 20 5
+
+# Operación de entrada/salida en el dispositivo DISCO por 2000ms
+IO DISCO 2000
+
+# Escribir "TEST" en la dirección 30
+WRITE 30 TEST
+
+# Leer 4 bytes desde la dirección 30
+READ 30 4
+
+# Salto incondicional a la dirección 0 (reiniciar)
+GOTO 0
+
+# Operación de entrada/salida en el dispositivo IMPRESORA por 1000ms
+IO IMPRESORA 1000
+
+# Finalizar el proceso
+EXIT 
